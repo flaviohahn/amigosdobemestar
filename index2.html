@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigos do Bem-Estar - Início</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/amg2.png" alt="Logotipo Amigos do Bem-estar" class="logo">
+        </header>
+        <div class="content">
+            <p>Nossa missão? Auxiliar você na jornada para um estilo de vida mais saudável. Vamos juntos? 🏆</p>
+
+            <section class="imc-calculator">
+                <h2>Calcule seu IMC</h2>
+                <form id="imcForm">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+                    <label for="peso">Peso (em kg):</label>
+                    <input type="number" id="peso" name="peso" required min="1" placeholder="Seu peso em kg">
+                    <label for="altura">Altura (em cm):</label>
+                    <input type="number" id="altura" name="altura" required min="1" placeholder="Sua altura em cm">
+                    <button type="submit" class="button">Calcular IMC</button>
+                </form>
+                <div class="result" id="imcResult"></div>
+            </section>
+
+            <section class="video-recommendations">
+                <h2>Vídeos Recomendados</h2>
+                <div id="videoList"></div>
+            </section>
+
+            <section class="gamification-info">
+                <h2>Como Funciona a Gamificação</h2>
+                <p>Por cada passo em direção à saúde, acumule recompensas! Nossa plataforma lhe dá as ferramentas: motivação, progresso e descontos nos seus locais favoritos.</p>
+                <p>Mais informações em breve!</p>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <p>Participe e inspire a mudança. Sua saúde agradece! 💪</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
