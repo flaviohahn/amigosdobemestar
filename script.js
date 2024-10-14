@@ -29,7 +29,7 @@ document.getElementById('imcForm').addEventListener('submit', function(e) {
   videoList.innerHTML = ''; // Limpa a lista de vídeos
   const videos = [
       {title: "Nutrição Inteligente", id: "lXqemxb7NEA"},
-      {title: "Exercícios em casa", id: "videoseries?list=PLf8OL6li9lj8WPzuyxEh_RTFH0GSKjJ7_"},
+      {title: "Exercícios em casa", id: "igJE8l4YmiY?si=q_fKeaIuEy7xx3m3"},
       {title: "Meditação para iniciantes", id: "vXZ5l7G6T2I"}
   ];
   videos.forEach(video => {
